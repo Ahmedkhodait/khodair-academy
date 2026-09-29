@@ -912,6 +912,6 @@ window.addEventListener("load", function() {
   `);
 });
 
-app.listen(PORT, '0.0.0.0', () => {
+module.exports = app;
   console.log("KHODAIR ACADEMY running on port " + PORT);
 });
