@@ -128,6 +128,10 @@ footer strong { color: #8b6f1f; }
 .contact-btn:hover { background: #1ebe5b; color: #ffffff; }
 .email-btn { background: #ea4335; color: #ffffff; border: none; padding: 9px 16px; font-size: 13px; border-radius: 6px; cursor: pointer; font-weight: bold; font-family: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
 .email-btn:hover { background: #c5221f; color: #ffffff; }
+.contact-btn { background: #25D366; color: #ffffff; border: none; padding: 9px 16px; font-size: 13px; border-radius: 6px; cursor: pointer; font-weight: bold; font-family: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
+.contact-btn:hover { background: #1ebe5b; }
+.email-btn { background: #ea4335; color: #ffffff; border: none; padding: 9px 16px; font-size: 13px; border-radius: 6px; cursor: pointer; font-weight: bold; font-family: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
+.email-btn:hover { background: #c5221f; }
 </style>
 </head>
 <body>
@@ -905,7 +909,8 @@ window.addEventListener("load", function() {
   if (loginBtn) loginBtn.addEventListener("click", checkPassword);
   if (aboutBtn) aboutBtn.addEventListener("click", openAbout);
   if (resetBtn) resetBtn.addEventListener("click", resetAll);
-  if (closeAboutBtn) closeAboutBtn.addEventListener("click", closeAbout);
+  if (closeAboutBtn) closeAboutBtn.addEventListener("click", closeAbout);    <a class="contact-btn" href="https://wa.me/201061396019" target="_blank">💬 واتساب</a>
+    <a class="email-btn" href="mailto:ahmedkhodair33@gmail.com?subject=استفسار%20عن%20KHODAIR%20ACADEMY">📧 إيميل</a>
   if (scenarioCloseBtn) scenarioCloseBtn.addEventListener("click", closeScenario);
   if (voiceGlobal) voiceGlobal.addEventListener("click", toggleVoice);
 });
