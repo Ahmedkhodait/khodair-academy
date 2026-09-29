@@ -124,7 +124,10 @@ footer strong { color: #8b6f1f; }
   .logo-icon { width: 55px; height: 55px; }
   .char-avatar { font-size: 70px; }
   .speech-text { font-size: 15px; }
-}
+}.contact-btn { background: #25D366; color: #ffffff; border: none; padding: 9px 16px; font-size: 13px; border-radius: 6px; cursor: pointer; font-weight: bold; font-family: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
+.contact-btn:hover { background: #1ebe5b; color: #ffffff; }
+.email-btn { background: #ea4335; color: #ffffff; border: none; padding: 9px 16px; font-size: 13px; border-radius: 6px; cursor: pointer; font-weight: bold; font-family: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
+.email-btn:hover { background: #c5221f; color: #ffffff; }
 </style>
 </head>
 <body>
@@ -164,7 +167,8 @@ footer strong { color: #8b6f1f; }
     </div>
   </div>
   <div class="header-actions">
-    <button id="aboutBtn">ℹ️ عن التطبيق</button>
+    <button id="aboutBtn">ℹ️ عن التطبيق</button>    <a class="contact-btn" href="https://wa.me/201061396019?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D9%85%D9%87%D8%AA%D9%85%20%D8%A8%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20KHODAIR%20ACADEMY" target="_blank">💬 واتساب</a>
+    <a class="email-btn" href="mailto:ahmedkhodair33@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20KHODAIR%20ACADEMY&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%86%D8%A7%20%D9%85%D9%87%D8%AA%D9%85%20%D8%A8%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20KHODAIR%20ACADEMY%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%20%0A%D8%A7%D9%84%D8%AC%D9%87%D8%A9%3A%20%0A%D8%A7%D9%84%D8%B1%D8%B3%D8%A7%D9%84%D8%A9%3A%20">📧 إيميل</a>
     <button id="resetBtn">🔄 إعادة تعيين</button>
   </div>
 </header>
